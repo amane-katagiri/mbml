@@ -1,0 +1,1 @@
+javascript:(function(){Array.from(document.querySelectorAll('.work_genre span')).filter(function(x){return x.textContent.startsWith('AI%E7%94%9F%E6%88%90%E4%BD%9C%E5%93%81')}).map(function(x){x.closest('.n_worklist_item').remove()})})();
